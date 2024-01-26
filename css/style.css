@@ -17,6 +17,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     font-family: 'Arvo', serif;
     background-color: white;
     margin: 0px;
@@ -132,19 +133,9 @@ footer ul{
     text-align: justify;
 }
 
-.galeria{
-    grid-area: galeria;
-}
-
-.imagenes-galeria img{
-    width: 300px;
-    height: 400px;
-    object-fit: cover;
-}
-
-.imagenes-galeria article{
-    display: inline-block;
-    text-align: center;
+.imagenes-galeria{
+    object-fit: contain;
+    height: 500px;
 }
 
 /* Main de contactos */
