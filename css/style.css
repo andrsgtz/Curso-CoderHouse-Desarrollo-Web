@@ -7,7 +7,6 @@ Beige Suave: #D7CCC8
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 *{
-    margin: 10px;
     padding: 0px;
 }
 
@@ -17,36 +16,40 @@ html{
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: #795548;
+    background-color: white;
+    margin: 0px;
 }
 
 header{
-    background-color: #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a3e6a5;
     position: sticky;
     top: 0px;
     margin: 0px;
 
 }
 
+
 header img{
-    width: 100px;
-    margin-top: 6px;
-    margin-left: 6px;
+    width: 80px;
+    margin: 6px 0px 8px 16px;
 }
 
-header ul{
-    list-style: none;
-}
 
-header a{
-    color: white;
+header ul a{
+    color: black;
     text-decoration: none;
+    padding: 20px;
+    border: 2px ridge #000000;
+    background: #9dcc8f;
 }
 
 header li{
     display: inline-block;
     font-size: 1.6rem;
-    margin-right: 30px;
+    margin-right: 100px;
 }
 
 /* Main de index*/
@@ -61,6 +64,7 @@ header li{
     text-shadow: -4px -2px 7px rgba(0,0,0,1);
     height: 200px;
     font-size: 2rem;
+    grid-area: banner;
 }
 
 /* bienvenida */
@@ -68,6 +72,7 @@ header li{
     text-align: center;
     text-decoration: underline;
     font-size: 3rem;
+    grid-area: bienvenida;
 }
 
 
@@ -91,10 +96,16 @@ header li{
     margin-top: 15px;
     font-size: 1.6rem;
 }
-
-.historia p{
+.historia{
+    grid-area: historia;
+}
+.historia-texto p{
     margin-top: 10px;
     text-align: justify;
+}
+
+.galeria{
+    grid-area: galeria;
 }
 
 .imagenes-galeria img{
