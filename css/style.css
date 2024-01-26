@@ -5,7 +5,7 @@ Beige Suave: #D7CCC8
 */
 
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 *{
     padding: 0px;
 }
@@ -15,9 +15,16 @@ html{
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arvo', serif;
     background-color: white;
     margin: 0px;
+}
+
+main{
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
 header{
@@ -27,8 +34,6 @@ header{
     background-color: #a3e6a5;
     position: sticky;
     top: 0px;
-    margin: 0px;
-
 }
 
 
@@ -55,6 +60,31 @@ header li{
 /* Main de index*/
 /* banner */
 
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a3e6a5;
+    top: 0px;
+    margin: 0px;
+    font-size: 1.6rem;
+}
+
+footer img{
+    width: 60px;
+    margin: 20px 20px 20px 20px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.footer-redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .banner{
     background-image: url(../images/banner.jpg);
     background-size: cover;
@@ -77,7 +107,6 @@ header li{
 
 
 .texto-descripcion{
-    background-color: #D7CCC8;
     font-size: 1.6rem;
     text-align: center;
 }
@@ -92,7 +121,6 @@ header li{
 }
 
 .bienvenida, .imagenes-galeria, .historia{
-    background-color: #D7CCC8;
     margin-top: 15px;
     font-size: 1.6rem;
 }
@@ -122,7 +150,6 @@ header li{
 /* Main de contactos */
 
 .informacion-contacto, .proceso-adopcion{
-    background-color: #D7CCC8;
     margin-top: 15px;
     font-size: 1.6rem;
 }
@@ -140,22 +167,7 @@ header li{
 }
 
 .perros-rescatados{
-    background-color: #D7CCC8;
     margin-top: 15px;
     font-size: 1.6rem;
 }
 
-
-
-footer{
-    background-color: #4CAF50;
-    margin: 0px;
-    font-size: 1.6rem;
-
-}
-
-footer img{
-    width: 60px;
-    margin-left: 10px;
-    margin-right: 30px;
-}
