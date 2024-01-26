@@ -1,0 +1,150 @@
+/* 
+Verde Fresco: #4CAF50
+Marrón Cálido: #795548
+Beige Suave: #D7CCC8
+*/
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 10px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #795548;
+}
+
+header{
+    background-color: #4CAF50;
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+
+}
+
+header img{
+    width: 100px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+header ul{
+    list-style: none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header li{
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-right: 30px;
+}
+
+/* Main de index*/
+/* banner */
+
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-shadow: -4px -2px 7px rgba(0,0,0,1);
+    height: 200px;
+    font-size: 2rem;
+}
+
+/* bienvenida */
+.titulo-bienvenida{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+
+.texto-descripcion{
+    background-color: #D7CCC8;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.titulos{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.titulo-imagen{
+    font-size: 2rem;
+}
+
+.bienvenida, .imagenes-galeria, .historia{
+    background-color: #D7CCC8;
+    margin-top: 15px;
+    font-size: 1.6rem;
+}
+
+.historia p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.imagenes-galeria img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.imagenes-galeria article{
+    display: inline-block;
+    text-align: center;
+}
+
+/* Main de contactos */
+
+.informacion-contacto, .proceso-adopcion{
+    background-color: #D7CCC8;
+    margin-top: 15px;
+    font-size: 1.6rem;
+}
+
+/* Main de Historias */
+
+.perros-rescatados img{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.perros-rescatados article{
+    text-align: center;
+}
+
+.perros-rescatados{
+    background-color: #D7CCC8;
+    margin-top: 15px;
+    font-size: 1.6rem;
+}
+
+
+
+footer{
+    background-color: #4CAF50;
+    margin: 0px;
+    font-size: 1.6rem;
+
+}
+
+footer img{
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
