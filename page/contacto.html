@@ -40,32 +40,32 @@
 </nav>
   </header>
 
+    <!-- MAIN -->
     <main>
-      <section>
-        <h2 class="titulos">Contacto y Adopción</h2>
+      <section class="margin-50">
+          <h3 class="fs-1">Información de Contacto</h3>
+          <p class="fs-4">Si tienes preguntas o estás interesado en adoptar, no dudes en comunicarte con nosotros:</p>
     
-        <div class="informacion-contacto">
-          <p>¡Gracias por considerar la adopción! Estamos emocionados de ayudarte en este proceso.</p>
-    
-          <h3>Información de Contacto</h3>
-          <p>Si tienes preguntas o estás interesado en adoptar, no dudes en comunicarte con nosotros:</p>
-    
-          <ul>
-            <li><strong>Teléfono:</strong> +54 123 4567890</li>
-            <li><strong>Correo Electrónico:</strong> <a href="mailto:info@mirefugiocanino.com">info@mirefugiocanino.com</a></li>
-            <li><strong>Dirección:</strong> Calle de la Cola Alegre 123</li>
-          </ul>
-        </div>
-    
-        <div class="proceso-adopcion">
-          <h3>Proceso de Adopción</h3>
-          <p>Para iniciar el proceso de adopción y darle a un perro una nueva oportunidad en tu hogar, por favor comunícate con nosotros a través de:</p>
-          <ul>
-            <li><strong>Teléfono:</strong> +54 123 4567890</li>
-            <li><strong>Correo Electrónico:</strong> <a href="mailto:adopcion@mirefugiocanino.com">adopcion@mirefugiocanino.com</a></li>
-          </ul>
-          <p>Nuestro equipo estará encantado de guiarte a través de los pasos y coordinar una visita al refugio para que puedas conocer a nuestros adorables perros disponibles para adopción.</p>
-        </div>
+          <form class="row g-3 margin-50">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label fs-3">Nombre y Apellido</label>
+              <input type="email" class="form-control fs-2" id="inputEmail4" placeholder="Nombre y Apellido">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label fs-2">Email</label>
+              <input type="password" class="form-control fs-2" id="inputPassword4" placeholder="Email">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label fs-2">Asunto</label>
+              <input type="text" class="form-control fs-2" id="inputAddress" placeholder="Asunto">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label fs-2">Mensaje (Opcional)</label>
+              <input type="text" class="form-control fs-2" id="inputAddress2" placeholder="Escribe un mensaje">
+            <div class="row col-12">
+              <button type="submit" class="btn btn-primary fs-2 margin-50">Enviar</button>
+            </div>
+          </form>
       </section>
     </main>
     
@@ -73,7 +73,7 @@
 <!-- FOOTER -->
 <footer>
   <!-- PRIMER DIV / TELEFONO Y CONTACTO -->
-  <div>
+  <div class="nav-desk">
       <img src="../images/phone-solid.svg" alt="">
       <p><strong>Redes Sociales</strong></p>
   </div>
@@ -86,19 +86,17 @@
   </div>
 
   <!-- TERCER DIV / NAV DEL FOOTER -->
-  <div>
+  <div class="nav-desk">
       <nav>
           <ul>
               <li><a href="../index.html">Home</a></li>
               <li><a href="./historias.html">Historias</a></li>
-              <li><a href="">Contacto</a></li>
-              <li><a href="./contacto.html">Adopciones</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+              <li><a href="./adopciones.html">Adopciones</a></li>
           </ul>
       </nav>
   </div>
-
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
 </body>
 </html>
