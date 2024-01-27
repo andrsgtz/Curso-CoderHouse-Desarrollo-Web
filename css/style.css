@@ -67,6 +67,10 @@ header ul a{
     background: #9dcc8f;
 }
 
+header ul a:hover{
+    background: #6f9364;
+}
+
 header li{
     display: inline-block;
     font-size: 1.6rem;
