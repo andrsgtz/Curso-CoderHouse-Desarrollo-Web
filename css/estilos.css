@@ -29,6 +29,10 @@ main {
   margin-top: 50px;
 }
 
+.width {
+  width: 100px;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -42,24 +46,24 @@ header {
   /* Coloca el header adelante de otros elementos */
   z-index: 1000;
 }
-header nav ul li {
+header img {
+  width: 80px;
+  margin: 6px 0px 8px 0px;
+}
+header ul li {
   display: inline-block;
   font-size: 1.6rem;
   margin-right: 50px;
   margin-left: 50px;
 }
-header nav ul li img {
-  width: 80px;
-  margin: 6px 0px 8px 0px;
-}
-header nav ul li a {
+header ul li .boton {
   color: black;
   text-decoration: none;
   padding: 20px;
   border: 2px ridge #000000;
   background: #a3e6a5;
 }
-header nav ul li a:hover {
+header ul li .boton:hover {
   background-color: #6f9364;
 }
 
@@ -111,7 +115,7 @@ footer .footer-redes {
     margin-left: 20px;
     margin-right: 20px;
   }
-  header ul a {
+  header ul li .boton {
     padding: 10px;
   }
 }

@@ -29,7 +29,9 @@ main{
 .margin-50{
     margin-top: 50px;
 }
-
+.width{
+    width: 100px;
+}
 @import "generales/headerFooter";
 @import "generales/imagenes";
 @import "page/index";
