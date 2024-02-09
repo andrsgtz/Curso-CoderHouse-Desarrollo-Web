@@ -1,0 +1,47 @@
+/* DISMINUYE EL TAMAÑO DEL HEADER EN PANTALLAS MEDIANAS */
+@media (min-width: 768px) and (max-width: 1100px){
+    header{
+        ul{
+            li{
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            a{
+                padding: 10px;
+            }
+        }
+    }
+}
+
+/* ELIMINA EL NAV DE CELULAR EN DESKTOP */
+@media (min-width: 768px){
+    .nav-cel{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+/* NAV DE CELULAR */
+@media (max-width: 767px){
+    header{
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        ul{
+            li{
+                font-size: 2rem;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+    main{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .nav-desk{
+        display: none;
+    }
+}

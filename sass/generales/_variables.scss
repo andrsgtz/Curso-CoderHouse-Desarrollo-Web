@@ -1,0 +1,12 @@
+$verde: #a3e6a5;
+$marron: #795548;
+$beige: #D7CCC8;
+
+$font: 'Arvo', serif;
+
+@mixin flex ($direccion, $justify, $align){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}

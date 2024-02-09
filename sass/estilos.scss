@@ -1,0 +1,36 @@
+@import "generales/variables";
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Arvo', serif;
+    background-color: white;
+    margin: 0px;
+    /* Para que el footer quede abajo del todo */
+    min-height: 100vh;
+}
+main{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.margin-50{
+    margin-top: 50px;
+}
+
+@import "generales/headerFooter";
+@import "generales/imagenes";
+@import "page/index";
+@import "generales/mediaQ"
