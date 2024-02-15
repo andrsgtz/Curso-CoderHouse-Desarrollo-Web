@@ -109,6 +109,11 @@ footer .footer-redes {
   font-size: 2rem;
 }
 
+.animacion:hover {
+  transform: scale(1.1, 1.08);
+  transition: 0.1s;
+}
+
 /* DISMINUYE EL TAMAÑO DEL HEADER EN PANTALLAS MEDIANAS */
 @media (min-width: 768px) and (max-width: 1100px) {
   header ul li {
