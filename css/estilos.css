@@ -92,10 +92,26 @@ footer .footer-redes {
   align-items: center;
 }
 
+.imagenes-rescatados {
+  object-fit: contain;
+  height: 500px;
+  width: 100%;
+}
+
 .imagenes-galeria {
   object-fit: contain;
   height: 500px;
   width: 100%;
+}
+
+.galeria {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #a3e6a5;
+}
+.galeria button img {
+  width: 30px;
+  height: 30px;
 }
 
 .banner {
@@ -123,6 +139,12 @@ footer .footer-redes {
   header ul li .boton {
     padding: 10px;
   }
+  .imagenes-rescatados {
+    height: auto;
+  }
+  .imagenes-galeria {
+    height: 700px;
+  }
 }
 /* ELIMINA EL NAV DE CELULAR EN DESKTOP */
 @media (min-width: 768px) {
@@ -136,10 +158,17 @@ footer .footer-redes {
   header {
     width: 100%;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+  }
+  header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
   header ul li {
     font-size: 2rem;
+    margin-top: -8px;
   }
   header ul a {
     text-decoration: none;
@@ -151,6 +180,12 @@ footer .footer-redes {
   }
   .nav-desk {
     display: none;
+  }
+  .imagenes-rescatados {
+    height: auto;
+  }
+  .imagenes-galeria {
+    height: 400px;
   }
 }
 

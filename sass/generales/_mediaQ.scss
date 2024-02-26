@@ -11,6 +11,12 @@
             }
         }
     }
+    .imagenes-rescatados{
+        height: auto;
+    }
+    .imagenes-galeria{
+        height: 700px;
+    }
 }
 
 /* ELIMINA EL NAV DE CELULAR EN DESKTOP */
@@ -26,10 +32,12 @@
     header{
         width: 100%;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: center;
         ul{
+            @include flex(column,space-around,center);
             li{
                 font-size: 2rem;
+                margin-top: -8px;
             }
             a{
                 text-decoration: none;
@@ -44,5 +52,11 @@
     }
     .nav-desk{
         display: none;
+    }
+    .imagenes-rescatados{
+        height: auto;
+    }
+    .imagenes-galeria{
+        height: 400px;
     }
 }
